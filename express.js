@@ -10,7 +10,7 @@ ConnectBase();
 
 const app = express();
 
-const Port = process.env.PORT || 3000
+const Port = process.env.PORT || 3006
 
 app.use(cors())
 
