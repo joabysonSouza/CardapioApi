@@ -1,8 +1,9 @@
 const express = require("express");
 const dotEnv = require("dotenv");
-const ConnectBase = require("./src/DataBase/connect");
-const UseModel = require("./src/Models/user.models");
+const ConnectBase = require("./DataBase/connect");
+const UseModel = require("./Models/user.models");
 const cors = require("cors")
+
 
 dotEnv.config(); // configurando variaveis de ambiente
 
